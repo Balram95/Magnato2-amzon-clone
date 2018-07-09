@@ -1,0 +1,281 @@
+.row{
+    width: 1140px;
+    margin:0 auto 0 auto;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-height: 1140px;
+}
+
+html{
+    background-color: #fff;
+    color: #555555;
+    font-family: 'Lato','Arial',sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.bar {
+    width: 100%;
+    background-color: dcdee6;
+    height: 50px;
+    text-align: justify;
+    padding-top: 15px;
+    
+}
+.head{
+    margin-top: 10px;
+}
+.logo{
+    width: 8%;
+    height: auto;
+    float: left;
+    display: inline-block;
+   
+}
+
+.ca{
+    display: inline-block;
+    float: right;
+    font-size: 170%;
+    margin-top:30px;
+    color: 4b4544;
+}
+
+.search {
+    height: 4%;
+    float: right;
+    margin-top:30px;
+    margin-right: 10px;
+    color: dimgray;
+    font-style: italic;
+    opacity: 0.4;
+}
+.my{
+    list-style: none;
+}
+.bar a{
+    
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 25px;
+    color: #555555;    
+}
+.men{
+    background-image: url(Resources/Images/mens.jpg);
+    height: 55vh;
+    background-position: center;
+}
+.women{
+    background-image: url(Resources/Images/women.jpg);
+    height: 40vh;
+    background-position: center;
+}
+.women h1{
+    margin-top: 100px;
+    font-size: 350%;
+    border: 3px solid;
+    padding: 5px 5px;
+    display: inline-block;
+    position: relative;
+    left: 60%;
+    top: 30%;
+    
+    
+}
+.women a{
+     text-decoration: none;
+    display: inline-block;
+    background-color: 1174b6;
+    color: white;
+    padding: 10px 10px;
+    font-weight: 400;
+    position: relative;
+    left: 50%;
+    bottom:30%;
+}
+.men h1{
+    margin-top: 100px;
+    font-size: 350%;
+    position:absolute;
+    right: 30%;
+    top: 30%;
+    border: 3px solid;
+    padding: 5px 5px;
+    
+}
+.men a{
+    text-decoration: none;
+    display: inline-block;
+    background-color: 1174b6;
+    color: white;
+    padding: 10px 10px;
+    font-weight: 400;
+    position:absolute;
+    right: 30%;
+    top: 30%;
+}
+.yoga{
+    background-image: url(Resources/Images/yoga.jpg);
+    height: 50vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+.sports{
+    background-image: url(Resources/Images/Sports.jpg);
+    height: 50vh;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    
+}
+.part{
+    text-align: center;
+}
+.part h1{
+    margin-bottom: 5px;
+}
+
+.seller{
+    padding: 4px 4px;
+}
+
+.seller img{
+    display: inline-block;
+    float: left;
+    width: 100%;
+    height: 30%;
+    margin-bottom: 20px;
+    margin-right: 5px;
+    
+}
+.seller:hover{
+    border: 1px solid black;
+}
+#price{
+    font-weight: 500;
+    margin-top: 10px;
+}
+.cart{
+    text-decoration: none;
+    display: inline-block;
+    background-color: 1f99eb;
+    color: white;
+    padding: 7px 7px;
+    font-size: 70%;
+    margin-top: 10px;
+}
+.cart:hover{
+    background-color: darkblue;
+}
+#bold{
+    font-weight: 600;
+}
+
+.top li{
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 90%;
+}
+
+.bottom li{
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 90%;
+}
+.bottom{
+    margin-top: 30px;
+}
+.all{
+    background-image: url(Resources/Images/Virat.jpg);
+    height: 50vh;
+    background-size: 100%;
+}
+.text {
+    display: inline-block;
+    width:40%;
+    background-color:f9f8f4;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    
+}
+.text h4{
+    font-size: 200%;
+    font-weight: 200;
+}
+
+.text a{
+    text-decoration: none;
+    display: inline-block;
+    background-color: 1174b6;
+    color: white;
+    padding: 10px 10px;
+    font-weight: 400;
+    font-size: 80%;
+    margin-top: 20px;
+    margin-left: 30px;
+    
+}
+.all-2{
+    background-image: url(Resources/Images/sports-kohli.jpg);
+    height: 40vh;
+    background-size: 100% 100%;
+    
+}
+.left{
+    height: 100%;
+}
+.all-3{
+    background-image: url(Resources/Images/shirts.jpg);
+    height: 40vh;
+    background-size: 100% 100%;
+    }
+.all-4{
+    background-image: url(Resources/Images/hoodies.jpg);
+    height: 40vh;
+    background-size: 100% 100%;
+    }
+.all-5{
+    background-image: url(Resources/Images/shorts.jpg);
+    height: 40vh;
+    background-size: 100% 100%;
+    }
+.all-6{
+    background-image: url(Resources/Images/tshirt.jpeg);
+    height: 40vh;
+    background-size: 100% 100%;
+    width:120%;
+    }
+.text1 {
+    display: inline-block;
+    width:40%;
+    background-color:f9f8f4;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+    top:40%;
+    left:40%;
+    padding-top: 10px;
+    
+}
+.text1 a{
+     text-decoration: none;
+    display: inline-block;
+    background-color: 1174b6;
+    color: white;
+    padding: 10px 10px;
+    font-weight: 400;
+    font-size: 80%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.left a{
+    text-decoration: none;
+    color: #555555;
+}

@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>Home</title>
+        <link type="text/css" href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700" rel="stylesheet">
+        <link type="text/css" href="Vendors/CSS/Grid.css" rel="stylesheet">
+        <link type="text/css" href="Vendors/CSS/normalize.css" rel="stylesheet">
+        <link type="text/css" href="Vendors/CSS/ionicons.min.css" rel="stylesheet">
+        <script src="https://unpkg.com/ionicons@4.1.2/dist/ionicons.js"></script>
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    </head>
+    <body>
+            <div class="row head">
+                <a href="index.html"><img class="logo" src="Resources/Images/logo.png"></a>
+               <a href="#"><ion-icon class="ca" name="cart"></ion-icon></a>
+                
+                <input class="search" type="search" onfocus="this.value=''" value="Search">
+        </div>  
+        
+        <nav class="bar">
+            <div class="row">
+                 <a href="#">What's New</a>
+            <a href="#">Women</a>
+            <a class="m" href="men.html">Men</a>
+            <a href="#">Gear</a>
+            <a href="#">Sale</a>
+            <a href="#">Books</a>
+                <a href="#">Training</a>
+            </div>
+        </nav>
+        <div class="row">
+                <div class="col span-3-of-3 men">
+                    <h1>20% OFF</h1>
+                    <a href="#">Shop Now</a>
+                </div>
+        </div>
+        <div class="row">
+                <div class="col span-3-of-3 women">
+                    <h1>40% OFF</h1>
+                    <a href="#">Shop Now</a>
+                </div>
+        </div>
+        <div class="row">
+                <div class="col span-1-of-3 yoga"> 
+                </div>
+                <div class="col span-2-of-3 sports">       
+                </div>
+        </div>
+        <div class="row">
+            <div class="part"><h1>Hot Sellers</h1>
+            <p>Here is what`s trending on U&I right now</p></div>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-5 seller">
+                <a href="#"><img src="Resources/Images/headphone.jpg"></a>
+                <p>Beats Headphone</p>
+                <p id="price">$40</p>
+                <a class="cart" href="#">Add to cart</a>
+            </div>
+            <div class="col span-1-of-5 seller">
+                <a href="#"><img src="Resources/Images/phone.jpg"></a>
+                <p>iphone X</p>
+                <p id="price">$200</p>
+                <a class="cart" href="#">Add to cart</a>
+            </div>
+            <div class="col span-1-of-5 seller">
+                <a href="#"><img src="Resources/Images/sofa.jpg"></a>
+                <p>Home sofa</p>
+                <p id="price">$92</p>
+                <a class="cart" href="#">Add to cart</a>
+            </div>
+            <div class="col span-1-of-5 seller">
+                <a href="#"><img src="Resources/Images/tee.jpg"></a>
+                <p>Man t-shirt</p>
+                <p id="price">$92</p>
+                <a class="cart" href="#">Add to cart</a>
+            </div>
+        </div>
+    </body>
+    <script>
+        $(document).keypress(function(event){
+	
+	var keycode = (event.keyCode ? event.keyCode : event.which);
+	if(keycode == '13'){
+		 document.location = $(".m").attr('href');
+	}
+	
+});
+
+    </script>
+</html>        
